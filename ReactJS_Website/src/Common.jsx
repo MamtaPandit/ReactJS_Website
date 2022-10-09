@@ -1,5 +1,4 @@
 import React from "react"
-import web from "../src/Images/home.svg"
 import {NavLink} from "react-router-dom"
 const Common = (props) =>{
     return (
@@ -14,7 +13,7 @@ const Common = (props) =>{
                             {props.name} <strong className="brand-name">React Technology</strong>
                         </h1>
                         <h2 className="my-3">
-                            We are the team of telented developer making website
+                            We are the team of talented and hardcore tech-savvy developer making awesome ReactJS website.
                         </h2>
                         <div className="mt-3">
                             <NavLink to={props.visit} className="btn-get-started">{props.btnname}</NavLink></div>
